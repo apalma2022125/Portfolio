@@ -63,7 +63,7 @@ nav ul li a:hover {
     gap: 20px;
 }
 
-.contact-icons img {
+contact-icons img {
     width: 30px;
     height: 30px;
 }
@@ -211,73 +211,84 @@ footer {
     #sobre-mi p {
         font-size: 1.2em;
     }
-}
 
-/* Estilos específicos para el apartado de Trayectoria Educativa */
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image, .image-diversificado {
+        display: none;
+    }
+
+    .info {
+        width: 100%;
+    }
+}
 
 .title {
     text-align: center;
-    color: white; /* Color del título */
+    color: white;
     margin-bottom: 20px;
 }
 
 #educational-path {
     padding: 20px;
     margin: 20px auto;
-    width: 80%; /* Ajusta el ancho según tus necesidades */
-    color: #fff; /* Color del texto blanco */
+    width: 80%;
+    color: #fff;
 }
 
 .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #333; /* Fondo del contenedor */
+    background-color: #333;
     padding: 20px;
     border-radius: 8px;
     margin-bottom: 20px;
 }
 
 .info {
-    width: 60%; /* Ajusta el ancho de la información */
+    width: 60%;
 }
 
 .image {
-    width: 35%; /* Ajusta el ancho de la imagen */
-    height: 100%; /* Ajusta la altura según tus necesidades */
-    min-height: 400px; /* Altura mínima para asegurar que se vea la imagen */
-    background-image: url('/src/assets/img/tEdu.webp'); /* Ruta CSS para la imagen de la primera sección */
+    width: 35%;
+    height: 100%;
+    min-height: 400px;
+    background-image: url('/src/assets/img/tEdu.webp');
     background-size: cover;
     background-position: center;
     border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0,0,0,0.1); /* Sombra ligera para la imagen */
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
 }
 
 .image-diversificado {
-    width: 35%; /* Ajusta el ancho de la imagen */
-    height: 100%; /* Ajusta la altura según tus necesidades */
-    min-height: 400px; /* Altura mínima para asegurar que se vea la imagen */
-    background-image: url('/src/assets/img/ccna.jpg'); /* Ruta CSS para la imagen de la segunda sección */
+    width: 35%;
+    height: 100%;
+    min-height: 400px;
+    background-image: url('/src/assets/img/ccna.jpg');
     background-size: cover;
     background-position: center;
     border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0,0,0,0.1); /* Sombra ligera para la imagen */
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
 }
 
 .education-item {
     margin-bottom: 20px;
     padding: 10px;
-    background-color: #1a1a1a; /* Fondo oscuro para mejorar la consistencia */
-    color: #fff; /* Color del texto blanco */
+    background-color: #1a1a1a;
+    color: #fff;
     border-radius: 8px;
 }
 
 .education-item h3 {
-    color: #fff; /* Color blanco para los subtítulos */
+    color: #fff;
     font-size: 1.2em;
 }
 
 .education-item p {
-    color: #b38aff; /* Color púrpura claro para el texto */
+    color: #b38aff;
     font-size: 1em;
 }
