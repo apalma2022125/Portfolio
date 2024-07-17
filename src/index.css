@@ -75,7 +75,6 @@ footer {
     color: white;
 }
 
-
 #proyectos {
     padding: 50px 20px;
     background-color: #0d0d0d;
@@ -214,25 +213,25 @@ footer {
 
 #certificados .education-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
 
 #certificados .education-image img {
-    width: 500px; /* Ajusta el tamaño según sea necesario */
+    width: 100%; /* Ajusta el tamaño según sea necesario */
+    max-width: 500px;
     border-radius: 10px;
 }
 
 #certificados .education-details {
-    
     background-color: #333;
     color: white;
     padding: 20px;
     border-radius: 10px;
-    height: 290px;
-    width: 500px; 
     text-align: left;
+    max-width: 500px; /* Ajusta el tamaño según sea necesario */
 }
 
 #certificados .education-details h3 {
@@ -249,4 +248,41 @@ footer {
 #certificados .education-details ul li {
     font-size: 1.2em;
     margin-bottom: 10px;
+}
+
+/* Media queries for responsive design */
+@media (min-width: 768px) {
+    #certificados .education-container {
+        flex-direction: row;
+    }
+    
+    #certificados .education-image img {
+        max-width: 50%;
+    }
+
+    #certificados .education-details {
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 767px) {
+    #inicio h1 {
+        font-size: 2em;
+    }
+
+    #proyectos h2, #sobre-mi h2, #certificados h2 {
+        font-size: 2em;
+    }
+
+    #sobre-mi p {
+        font-size: 1.2em;
+    }
+
+    #certificados .education-details h3 {
+        font-size: 1.5em;
+    }
+
+    #certificados .education-details ul li {
+        font-size: 1em;
+    }
 }
