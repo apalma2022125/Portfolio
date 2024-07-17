@@ -8,7 +8,7 @@ function Navbar() {
         <ul>
           <li><Link to="/">Inicio</Link></li>
           <li><Link to="/proyectos">Proyectos</Link></li>
-          <li><Link to="/certificados">Trayectoria educativa</Link></li>
+          <li><Link to="/certificados">Educacion</Link></li>
           <li><Link to="/sobre-mi">Sobre mí</Link></li>
         </ul>
       </nav>

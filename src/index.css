@@ -31,7 +31,7 @@ nav ul li a:hover {
 }
 
 #inicio {
-    background-image: url('./assets/img/fondoHome.gif'); 
+    background-image: url('/src/assets/img/fondoHome.gif'); 
     background-size: cover;
     background-position: center;
     height: 88vh;
@@ -219,10 +219,14 @@ footer {
     gap: 20px;
 }
 
-#certificados .education-image img {
-    width: 100%; /* Ajusta el tamaño según sea necesario */
+#certificados .education-image {
+    width: 100%;
     max-width: 500px;
     border-radius: 10px;
+    background-image: url('/src/assets/img/tEdu.webp'); 
+    background-size: cover;
+    background-position: center;
+    height: 300px;
 }
 
 #certificados .education-details {
@@ -256,7 +260,7 @@ footer {
         flex-direction: row;
     }
     
-    #certificados .education-image img {
+    #certificados .education-image {
         max-width: 50%;
     }
 

@@ -5,9 +5,7 @@ function Certification() {
     <section id="certificados">
       <h2>Trayectoria Educativa</h2>
       <div className="education-container">
-        <div className="education-image">
-          <img src="/src/assets/img/tEdu.webp" alt="Educational background" />
-        </div>
+        <div className="education-image"></div>
         <div className="education-details">
           <h3>Instituciones y grados</h3>
           <ul>
