@@ -5,7 +5,7 @@ function Skills() {
     <div className="skills-section">
       <h3>Skills</h3>
       <div className="skill-list">
-        <img src="/src/assets/img/html-5.png" alt="HTML" />
+        <img src="https://w7.pngwing.com/pngs/5/56/png-transparent-website-development-html5-logo-world-wide-web-consortium-world-wide-web-angle-web-design-text-thumbnail.png" alt="HTML" />
         <img src="/src/assets/img/js.png" alt="JavaScript" />
         <img src="/src/assets/img/boots.png" alt="Bootstrap" />
         <img src="/src/assets/img/react.png" alt="React" />
