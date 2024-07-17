@@ -75,7 +75,7 @@ footer {
     color: white;
 }
 
-/* Estilos para la sección de Proyectos */
+
 #proyectos {
     padding: 50px 20px;
     background-color: #0d0d0d;
@@ -150,7 +150,6 @@ footer {
     background-color: #9d63f6;
 }
 
-/* Estilos para la sección de Sobre mí */
 #sobre-mi {
     padding: 50px 20px;
     background-color: #1a1a1a;
@@ -164,7 +163,7 @@ footer {
 }
 
 #sobre-mi p {
-    font-size: 1.2em;
+    font-size: 1.7em;
     line-height: 1.5em;
 }
 
@@ -201,61 +200,53 @@ footer {
     transform: scale(1.1);
 }
 
-/* Certification styles */
 #certificados {
     padding: 50px 20px;
-    background-color: #fff;
-    color: #333;
+    background-color: #f0f0f0;
+    color: black;
     text-align: center;
 }
 
 #certificados h2 {
     font-size: 2.5em;
     margin-bottom: 20px;
-    color: #333;
 }
 
-.education-container {
+#certificados .education-container {
     display: flex;
-    align-items: flex-start;
     justify-content: center;
-    flex-wrap: wrap;    
+    align-items: center;
+    gap: 20px;
 }
 
-.education-image img {
-    max-width: 400px;
-    width: 100%;
-    height: auto;
+#certificados .education-image img {
+    width: 500px; /* Ajusta el tamaño según sea necesario */
     border-radius: 10px;
 }
 
-.education-details {
-    height: 225px;
-    max-width: 600px;
-    text-align: left;
+#certificados .education-details {
+    
     background-color: #333;
+    color: white;
     padding: 20px;
     border-radius: 10px;
-    color: white;
+    height: 290px;
+    width: 500px; 
+    text-align: left;
 }
 
-.education-details h3 {
+#certificados .education-details h3 {
     font-size: 1.8em;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     color: #b38aff;
 }
 
-.education-details ul {
-    list-style-type: none;
+#certificados .education-details ul {
+    list-style: none;
     padding: 0;
 }
 
-.education-details li {
+#certificados .education-details ul li {
     font-size: 1.2em;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
-
-.education-details strong {
-    color: #b38aff;
-}
-/* End of Certification styles */
