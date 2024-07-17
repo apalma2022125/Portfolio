@@ -31,7 +31,7 @@ nav ul li a:hover {
 }
 
 #inicio {
-    background-image: url('/src/assets/img/fondoHome.gif'); 
+    background-image: url('./assets/img/fondoHome.gif'); 
     background-size: cover;
     background-position: center;
     height: 88vh;
@@ -199,76 +199,6 @@ footer {
     transform: scale(1.1);
 }
 
-#certificados {
-    padding: 50px 20px;
-    background-color: #f0f0f0;
-    color: black;
-    text-align: center;
-}
-
-#certificados h2 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-}
-
-#certificados .education-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-
-#certificados .education-image {
-    width: 100%;
-    max-width: 500px;
-    border-radius: 10px;
-    background-image: url('/src/assets/img/tEdu.webp'); 
-    background-size: cover;
-    background-position: center;
-    height: 300px;
-}
-
-#certificados .education-details {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    border-radius: 10px;
-    text-align: left;
-    max-width: 500px; /* Ajusta el tamaño según sea necesario */
-}
-
-#certificados .education-details h3 {
-    font-size: 1.8em;
-    margin-bottom: 15px;
-    color: #b38aff;
-}
-
-#certificados .education-details ul {
-    list-style: none;
-    padding: 0;
-}
-
-#certificados .education-details ul li {
-    font-size: 1.2em;
-    margin-bottom: 10px;
-}
-
-/* Media queries for responsive design */
-@media (min-width: 768px) {
-    #certificados .education-container {
-        flex-direction: row;
-    }
-    
-    #certificados .education-image {
-        max-width: 50%;
-    }
-
-    #certificados .education-details {
-        max-width: 50%;
-    }
-}
-
 @media (max-width: 767px) {
     #inicio h1 {
         font-size: 2em;
@@ -281,12 +211,73 @@ footer {
     #sobre-mi p {
         font-size: 1.2em;
     }
+}
 
-    #certificados .education-details h3 {
-        font-size: 1.5em;
-    }
+/* Estilos específicos para el apartado de Trayectoria Educativa */
 
-    #certificados .education-details ul li {
-        font-size: 1em;
-    }
+.title {
+    text-align: center;
+    color: white; /* Color del título */
+    margin-bottom: 20px;
+}
+
+#educational-path {
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%; /* Ajusta el ancho según tus necesidades */
+    color: #fff; /* Color del texto blanco */
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333; /* Fondo del contenedor */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.info {
+    width: 60%; /* Ajusta el ancho de la información */
+}
+
+.image {
+    width: 35%; /* Ajusta el ancho de la imagen */
+    height: 100%; /* Ajusta la altura según tus necesidades */
+    min-height: 400px; /* Altura mínima para asegurar que se vea la imagen */
+    background-image: url('/src/assets/img/tEdu.webp'); /* Ruta CSS para la imagen de la primera sección */
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1); /* Sombra ligera para la imagen */
+}
+
+.image-diversificado {
+    width: 35%; /* Ajusta el ancho de la imagen */
+    height: 100%; /* Ajusta la altura según tus necesidades */
+    min-height: 400px; /* Altura mínima para asegurar que se vea la imagen */
+    background-image: url('/src/assets/img/ccna.jpg'); /* Ruta CSS para la imagen de la segunda sección */
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1); /* Sombra ligera para la imagen */
+}
+
+.education-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #1a1a1a; /* Fondo oscuro para mejorar la consistencia */
+    color: #fff; /* Color del texto blanco */
+    border-radius: 8px;
+}
+
+.education-item h3 {
+    color: #fff; /* Color blanco para los subtítulos */
+    font-size: 1.2em;
+}
+
+.education-item p {
+    color: #b38aff; /* Color púrpura claro para el texto */
+    font-size: 1em;
 }
