@@ -8,8 +8,8 @@ function Home() {
         <span className="highlight">looking for a new experience</span>
       </h1>
       <div className="contact-icons">
-        <a href="https://github.com/apalma2022125" target="_blank" rel="noopener noreferrer"><img src="/src/assets/img/github.png" alt="GitHub" /></a>
-        <a href="https://www.linkedin.com/in/angelo-palma2005" target="_blank" rel="noopener noreferrer"><img src="/src/assets/img/linkedin.png" alt="LinkedIn" /></a>
+        <a href="https://github.com/apalma2022125" target="_blank" rel="noopener noreferrer"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" /></a>
+        <a href="https://www.linkedin.com/in/angelo-palma2005" target="_blank" rel="noopener noreferrer"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" /></a>
       </div>
     </section>
   );
