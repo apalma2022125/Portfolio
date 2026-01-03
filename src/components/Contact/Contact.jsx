@@ -35,7 +35,7 @@ function Contact() {
         <AnimatedDivider scrollPositionOffset={4000} speedMultiplier={1} />
         <div className="flex items-center justify-center gap-10">
           <a
-            href="https://github.com/Jonatan-Elizalde-Gomez"
+            href="https://github.com/apalma2022125"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -50,7 +50,7 @@ function Contact() {
             href={cvLink}
             target="_blank"
             rel="noopener noreferrer"
-            download="CV - Jonatan Elizalde Gomez"
+            download="CV - Ángelo Javier Palma"
           >
             <img
               src="/downloadWhite.svg"
@@ -60,7 +60,7 @@ function Contact() {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/jonatan-elizalde-gomez/"
+            href="https://www.linkedin.com/in/angelo-palma2005"
             target="_blank"
             rel="noopener noreferrer"
           >

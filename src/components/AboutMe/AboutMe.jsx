@@ -27,7 +27,7 @@ function AboutMe() {
               className="h-40 w-40 rounded-full lg:mt-0 mt-5"
             />
           </div>
-          <h1 className="text-3xl">Ángelo Javier Palma</h1>
+          <h1 className="text-3xl">Ángelo Javier Palma Bautista</h1>
           <p className="text-justify text-lg pt-5"> {t('aboutMeInfo')} </p>
         </Fade>
 

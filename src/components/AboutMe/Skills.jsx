@@ -6,20 +6,13 @@ import { useTranslation } from 'react-i18next';
 function Skills() {
   const { t } = useTranslation();
 
-  const frontEnd = [
-    "JavaScript",
-    "HTML5",
-    "ReactJS",
-    "Angular",
-    "TypeScript",
-    "CSS3",
-    "Angular",
-    "Tailwind",
-  ];
+  const frontEnd = ["JavaScript", "HTML5", "ReactJS", "CSS3", "Angular", "Tailwind", "Afro"];
 
-  const backEnd = ["Express", "MySQL", "MongoDB", "Firebase"];
+  const dataBase = ["MySQL", "MongoDB", "SQLServer"];
 
-  const tools = ["Github", "Postman", "Tailwind", "Bootstrap"];
+  const backEnd = ["Java", "SpringBoot", "Phyton","Nodejs","Express"];
+
+  const tools = ["Github", "Postman", "Tailwind", "Bootstrap","FireBase"];
 
   return (
     <section className="pt-16 text-center">
@@ -35,21 +28,35 @@ function Skills() {
         </div>
       </Slide>
 
-<div className="w-full flex justify-center">
+      <div className="w-full flex justify-center">
 
-      <div className="flex flex-col items-center w-[300px] md:w-[100%] md:px-14" >
-        <Bounce>
-          <img src="/code.svg" alt="Icono 1" className="w-32 h-32" />
-        </Bounce>
-        <Fade>
-          <div className="flex flex-wrap justify-center gap-x-10 gap-y-5 pb-20">
-            {frontEnd.map((texto, index) => (
-              <ItemBox key={index} texto={texto} />
+        <div className="flex flex-col items-center w-[300px] md:w-[100%] md:px-14" >
+          <Bounce>
+            <img src="/code.svg" alt="Icono 1" className="w-32 h-32" />
+          </Bounce>
+          <Fade>
+            <div className="flex flex-wrap justify-center gap-x-10 gap-y-5 pb-20">
+              {frontEnd.map((texto, index) => (
+                <ItemBox key={index} texto={texto} />
               ))}
-          </div>
-        </Fade>
+            </div>
+          </Fade>
+        </div>
+
+        <div className="flex flex-col items-center w-[300px] md:w-[100%] md:px-14">
+          <Bounce>
+            <img src="/backEnd.png" alt="Icono 1" className="w-32 h-32 mb-6" />
+          </Bounce>
+          <Fade>
+            <div className="flex flex-wrap justify-center gap-x-10 gap-y-6 pb-20">
+              {backEnd.map((texto, index) => (
+                <ItemBox key={index} texto={texto} />
+              ))}
+            </div>
+          </Fade>
+        </div>
+
       </div>
-              </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 justify-items-center">
         <div className="flex flex-col items-center" style={{ width: "300px" }}>
@@ -63,7 +70,7 @@ function Skills() {
 
           <Fade>
             <div className="flex flex-wrap justify-center gap-x-10 gap-y-5 pb-20">
-              {backEnd.map((texto, index) => (
+              {dataBase.map((texto, index) => (
                 <ItemBox key={index} texto={texto} />
               ))}
             </div>

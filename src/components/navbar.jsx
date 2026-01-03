@@ -123,7 +123,7 @@ function NavBar() {
                   href={cvLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  download="CV - Jonatan Elizalde Gomez"
+                  download="CV - Ángelo Javier Palma"
                 >
                   <p>CV</p>
                   <img src={downloadSvg} width={"25px"} alt="Descargar" />
@@ -140,7 +140,7 @@ function NavBar() {
             href={cvLink}
             target="_blank"
             rel="noopener noreferrer"
-            download="CV - Jonatan Elizalde Gomez"
+            download="CV - Ángelo Javier Palma"
           >
             <p>CV</p>
             <img src={downloadSvg} width={"25px"} alt="Descargar" />
