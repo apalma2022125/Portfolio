@@ -3,7 +3,6 @@ import Landscape from "./Components/Landscape";
 import AboutMe from "./Components/AboutMe/AboutMe";
 import Projects from "./Components/Portafolio/Projects";
 import Contact from "./Components/Contact/Contact";
-
 function Portafolio() {
   return (
     <>

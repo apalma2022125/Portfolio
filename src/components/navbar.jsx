@@ -6,6 +6,7 @@ import downloadSvg from "/download.svg";
 import { useTranslation } from 'react-i18next';
 import LanguageSwitch from "./Shared/LanguageSwitch";
 
+
 function NavBar() {
   const { t, i18n } = useTranslation();
   const cvLink = i18n.language === 'en' ? '/cv-en.pdf' : '/cv-es.pdf';
