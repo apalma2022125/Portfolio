@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import './Components/Shared/i18n';
+import './src/Components/Shared/i18n.jsx';
 import Portafolio from './src/Portafolio.jsx'
 import './index.css'
 
