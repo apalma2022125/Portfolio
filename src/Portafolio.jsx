@@ -1,8 +1,9 @@
-import NavBar from "./Components/NavBar.jsx";
-import Landscape from "./Components/Landscape.jsx";
-import AboutMe from "./Components/AboutMe/AboutMe.jsx";
-import Projects from "./Components/Portafolio/Projects.jsx";
-import Contact from "./Components/Contact/Contact.jsx";
+// Agregamos .jsx al final de todos los archivos
+import NavBar from "./components/Shared/navbar.jsx";
+import Landscape from "./components/Shared/Landscape.jsx";
+import AboutMe from "./components/AboutMe/AboutMe.jsx";
+import Projects from "./components/Portafolio/Projects.jsx";
+import Contact from "./components/Contact/Contact.jsx";
 function Portafolio() {
   return (
     <>
